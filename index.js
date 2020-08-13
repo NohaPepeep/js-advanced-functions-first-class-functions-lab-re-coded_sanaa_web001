@@ -9,3 +9,6 @@ const returnLastTwoDrivers=function(drivers){
 }
 let drivers=["4","5","6"]
 const selectingDrivers=[returnFirstTwoDrivers(drivers),returnLastTwoDrivers(drivers)];
+let selectingDrivers=function(drivers){
+  selectingDrivers=[returnFirstTwoDrivers(drivers),returnLastTwoDrivers(drivers)];
+}
